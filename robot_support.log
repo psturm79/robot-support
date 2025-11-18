@@ -1,0 +1,2 @@
+2025-11-14 15:55:17.017 | INFO     | robot_support.serial_tool:__init__:13 - Serial opened /dev/pts/3 @ 115200
+2025-11-14 16:13:06.931 | ERROR    | robot_support.serial_tool:__init__:15 - Cannot open serial: [Errno 2] could not open port /dev/pts/3: [Errno 2] No such file or directory: '/dev/pts/3'

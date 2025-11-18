@@ -1,0 +1,11 @@
+robot:
+  serial_port: "/dev/pts/3"
+  baudrate: 115200
+
+ssh:
+  host: "192.168.1.50"
+  username: "robot"
+  key_path: "~/.ssh/id_rsa"
+
+logging:
+  level: "INFO"

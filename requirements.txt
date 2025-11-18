@@ -1,0 +1,16 @@
+pyserial
+psutil
+numpy
+requests
+pyyaml
+paramiko
+cryptography
+invoke
+rich
+fastapi
+uvicorn
+websockets
+pandas
+loguru
+pytest
+tqdm
