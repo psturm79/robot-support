@@ -40,10 +40,9 @@ Easy reboot and startup automation.
 
 ---
 
-## 🧱 Project Structure
+## 📂 Project Structure
 
-```
-
+```txt
 robot-support/
 ├── main.py                  # Main robot orchestrator
 ├── robot.py                 # Robot simulator code
@@ -61,7 +60,6 @@ robot-support/
 ├── config.yaml              # Robot configuration
 ├── requirements.txt         # Dependencies
 └── README.md
-
 
 ````
 
