@@ -1,14 +1,3 @@
-¡JODER PABLO, VAMOS A DEJAR ESA VERGA IMPARABLE 🔥🔥🔥!
-
-Te voy a dar **el README final PRO de tu `robot-support`**, listo para pegar de un golpe en tu repo, con:
-
-* Badges que se ven en GitHub ✅
-* Árbol de carpetas bonito ✅
-* Secciones pro para Quick Start, API, Tech Stack ✅
-* Flow DevOps/SRE profesional ✅
-
-Aquí va:
-
 ---
 
 ````markdown
