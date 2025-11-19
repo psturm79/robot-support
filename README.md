@@ -45,21 +45,23 @@ Easy reboot and startup automation.
 ```
 
 robot-support/
-│
+├── main.py                  # Main robot orchestrator
 ├── robot.py                 # Robot simulator code
 ├── api.py                   # FastAPI backend
-├── robot_support.service    # Example systemd unit
-│
-├── robotenv/                # Python virtual environment
-│
+├── robot_support/           # Core support package
+│   ├── __init__.py
+│   ├── robot_diag.py
+│   └── ...
+├── robotenv/                # Python virtual environment (ignored)
 ├── logs/
 │   ├── robot_sim.log
 │   └── api_server.log
-│
 ├── start_robot_env.sh       # Start robot + API
 ├── start_robot_env_logs.sh  # Start and tail logs
-│
+├── config.yaml              # Robot configuration
+├── requirements.txt         # Dependencies
 └── README.md
+
 
 ````
 
