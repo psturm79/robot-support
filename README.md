@@ -1,42 +1,20 @@
-```markdown
-# 🤖 Robot Support System  
-### Automated Robot Simulation, Monitoring & API Control  
-**By Pablo Sturm**
+````markdown
+# 🤖 Robot Support System
+[![Python Version](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/psturm79/robot-support)](https://github.com/psturm79/robot-support)
+[![Last Commit](https://img.shields.io/github/last-commit/psturm79/robot-support)](https://github.com/psturm79/robot-support/commits/main)
 
-This repository contains a fully automated robot simulation environment, with:
+Automated Robot Simulation, Monitoring & API Control  
+**Author:** Pablo Sturm
 
-- A **robot simulator** (Python)
-- A **FastAPI backend**
-- Automated logs
-- A dedicated Linux service environment
-- Startup scripts
-- SSH/virtualenv integration
-- Structured project layout
+This project demonstrates a modular robot simulation environment with:
 
-This project is designed as the foundation for a real robotic control system with remote API access and monitoring dashboards.
-
----
-
-## 🚀 Features
-
-### ✅ Robot Simulation  
-Simulates real-time robot movement and operations.  
-PIDs, telemetry and live loop execution.
-
-### ✅ FastAPI REST API  
-Exposes robot controller via `/status`, `/move`, `/telemetry`.
-
-### ✅ Logging System  
-Structured logging with rotation, stored separately.
-
-### ✅ Virtual Environment  
-Custom Python 3.12 venv (`robotenv/`).
-
-### ✅ Startup Scripts  
-- `start_robot_env.sh`  
-- `start_robot_env_logs.sh`  
-
-Easy reboot and startup automation.
+- Python-based Robot Simulator  
+- FastAPI backend for robot control & telemetry  
+- Structured logging & async handling  
+- Startup scripts & virtualenv integration  
+- Ready for DevOps monitoring and CI/CD pipelines  
 
 ---
 
@@ -60,68 +38,84 @@ robot-support/
 ├── config.yaml              # Robot configuration
 ├── requirements.txt         # Dependencies
 └── README.md
-
 ````
 
 ---
 
-## ▶️ How to Run Locally
+## 🚀 Quick Start
 
-### 1. Activate venv
+### 1️⃣ Activate venv
+
 ```bash
 source robotenv/bin/activate
-````
-
-### 2. Start robot + API
-
-```bash
-./start_robot_env.sh
 ```
 
-### 3. View logs
+### 2️⃣ Start Robot Simulator
 
 ```bash
-./start_robot_env_logs.sh
+python robot.py
+```
+
+### 3️⃣ Start API
+
+```bash
+uvicorn api:app --host 0.0.0.0 --port 8000
+```
+
+### 4️⃣ Check Status
+
+```bash
+curl http://localhost:8000/status
 ```
 
 ---
 
 ## 🌐 API Endpoints
 
-### **GET** `/status`
-
-Return robot status + telemetry.
-
-### **POST** `/move`
-
-Send new movement coordinates or parameters.
-
-### **GET** `/logs`
-
-Stream live logs.
+| Method | Endpoint  | Description              |
+| ------ | --------- | ------------------------ |
+| GET    | `/status` | Robot telemetry & status |
+| POST   | `/move`   | Send movement commands   |
+| GET    | `/logs`   | Stream logs in JSON      |
 
 ---
 
-## 🔧 Roadmap (Next Steps)
+## 🛠 Tech Stack
 
-* Add websocket monitoring dashboard
-* Add authentication (JWT)
-* Add Grafana/Prometheus exporter
-* Add Docker container
-* Use Redis pub/sub for real-time telemetry
-* Add CI/CD (GitHub Actions)
+* Python 3.12
+* FastAPI + Uvicorn
+* AsyncIO, structured logging
+* Linux/Ubuntu compatible
+* Ready for CI/CD pipelines
 
 ---
 
-## 📜 License
+## 🧪 Roadmap
 
-MIT License.
+* Web dashboard (Grafana/Prometheus or custom FastAPI)
+* Real-time telemetry & alerts
+* Docker containerization
+* Authentication & security enhancements
+* CI/CD workflow integration (GitHub Actions)
+
+---
+
+## 🤝 Contributions
+
+PRs welcome! Use feature branches and keep code clean.
 
 ---
 
 ## 🧔 Author
 
 **Pablo Sturm**
-Automation, DevOps & Robotics Enthusiast
+Azure • DevOps • SRE • Automation Engineer
+[GitHub](https://github.com/psturm79)
 
-GitHub: [https://github.com/psturm79](https://github.com/psturm79)
+---
+
+## ⭐ Support
+
+Give it a **star** if you like the project!
+
+````
