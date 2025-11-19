@@ -1,4 +1,3 @@
-````markdown
 # 🤖 Robot Support System
 
 [![Python Version](https://img.shields.io/badge/python-3.12-blue)](https://www.python.org/)
@@ -6,6 +5,7 @@
 [![GitHub Repo Size](https://img.shields.io/github/repo-size/psturm79/robot-support)](https://github.com/psturm79/robot-support)
 [![Last Commit](https://img.shields.io/github/last-commit/psturm79/robot-support)](https://github.com/psturm79/robot-support/commits/main)
 
+````markdown
 Automated Robot Simulation, Monitoring & API Control  
 **Author:** Pablo Sturm
 
