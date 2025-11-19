@@ -127,25 +127,4 @@ Automation, DevOps & Robotics Enthusiast
 GitHub: [https://github.com/psturm79](https://github.com/psturm79)
 
 ````
-
----
-
-# ✔️ AHORA QUÉ HACER
-
-1. En tu instance:
-
-```bash
-nano ~/robot-support/README.md
-````
-
-2. Pega TODO lo que te puse arriba.
-3. Guarda (`CTRL+O`, ENTER, `CTRL+X`).
-4. Luego:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push origin main
-```
-
 ---
