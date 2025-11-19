@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+robotenv/
+.venv/
+
+# Logs
+*.log
+logs/
+*.out
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# YAML cache
+*.cache/
+
+# Test cache
+.pytest_cache/
+
+# AWS/Secrets
+.aws/
+*.pem
+*.key
+*.crt
