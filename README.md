@@ -125,6 +125,3 @@ MIT License.
 Automation, DevOps & Robotics Enthusiast
 
 GitHub: [https://github.com/psturm79](https://github.com/psturm79)
-
-````
----
