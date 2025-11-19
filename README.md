@@ -118,5 +118,3 @@ Azure • DevOps • SRE • Automation Engineer
 ## ⭐ Support
 
 Give it a **star** if you like the project!
-
-````
