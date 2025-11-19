@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-=======
-
-
->>>>>>> d5a8898 (Add final professional README with badges and project structure)
 ````markdown
 # 🤖 Robot Support System
 
